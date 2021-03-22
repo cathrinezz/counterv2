@@ -49,4 +49,18 @@
         android:onClick="ADD"
         android:text="reset" />
 
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="random" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_background"
+        android:contentDescription="TODO"
+        tools:ignore="VectorDrawableCompat" />
+
 </LinearLayout>
